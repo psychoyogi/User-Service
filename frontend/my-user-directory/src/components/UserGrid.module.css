@@ -1,0 +1,88 @@
+.container {
+    padding: 2rem;
+    background: #89bcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.select {
+    padding: 0.75rem;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    background: #949ca4;
+    min-width: 200px;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.select:hover {
+    border-color: #94a3b8;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+}
+
+.th {
+    padding: 1rem;
+    background: #f1f5f9;
+    font-weight: 600;
+    text-align: left;
+    color: #475569;
+    border-bottom: 2px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+}
+
+.td {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+
+.sortButton {
+    background: #119adf;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: all 0.2s;
+    margin-left: 0.5rem;
+}
+
+.sortButton:hover {
+    background: #1471f4;
+}
+
+.row {
+    transition: background-color 0.2s;
+}
+
+.row:hover {
+    background-color: #f8fafc;
+}
+
+.badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: #e2e8f0;
+    color: #475569;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 3rem;
+    color: #64748b;
+}
